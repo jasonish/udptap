@@ -108,6 +108,7 @@ static void
 print_usage(FILE *out)
 {
         static char usage[] = "\n" \
+            "usage: udptap [options]\n\n"
             "Options:\t\n"
             "\t-i <interface>      Interface to tap\n"
             "\t-u <port>           UDP port to tap\n"
